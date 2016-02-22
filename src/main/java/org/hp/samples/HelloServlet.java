@@ -37,7 +37,7 @@ public class HelloServlet extends HttpServlet {
 		response.setContentType("text/plain");
 		response.setStatus(200);
 		PrintWriter writer = response.getWriter();
-		writer.println("Hello World! {{guid_token}}");
+		writer.println("Hello World! c187e764-31c3-4356-adeb-55fe10683409");
 		writer.close();
 	}
 }
